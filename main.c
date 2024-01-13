@@ -6,7 +6,7 @@
 /*   By: cseng-kh <cseng-kh@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 07:32:37 by cseng-kh          #+#    #+#             */
-/*   Updated: 2024/01/13 09:01:02 by runner           ###   ########.fr       */
+/*   Updated: 2024/01/13 09:09:32 by cseng-kh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	main(void)
 	int	height;
 
 	width = 5;
-	height = 3;
+	height = 7;
 	rush(width, height);
 	return (0);
 }
