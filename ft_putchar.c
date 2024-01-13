@@ -6,20 +6,13 @@
 /*   By: cseng-kh <cseng-kh@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 07:34:11 by cseng-kh          #+#    #+#             */
-/*   Updated: 2024/01/13 09:09:16 by cseng-kh         ###   ########.fr       */
+/*   Updated: 2024/01/13 23:34:06 by choongsk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdlib.h>
 
 void	ft_putchar(char c)
 {
-	ssize_t	result;
-
-	result = write(1, &c, 1);
-	if (result == -1)
-	{
-		exit(0);
-	}
+	write(1, &c, 1);
 }
